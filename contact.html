@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+
+<head>
+  <!--
+    Created by Richard P.
+    Hunter HTML Project
+    Fall 2017
+  -->
+  <title>Home | The Three Branches of Government</title>
+  <link href="css/styling.css" type="text/css" rel="stylesheet">
+  <link href="css/contact.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <h1>The Three Branches of Government</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="executivebranch.html">Executive Branch</a></li>
+        <li><a href="judicialbranch.html">Judicial Branch</a></li>
+        <li><a href="legislativebranch.html">Legislative Branch</a></li>
+        <li><a href="contact.html" class="selected">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="page-title-container">
+      <div id="page-title-content">
+        <h1 id="page-title">Contact Us</h1>
+      </div>
+    </div>
+
+    <div id="page-content">
+      <div class="content-title">
+        <h1>Send Us a Message</h1>
+        <p>Get in touch with us by filling out and submitting the contact form below.</p>
+      </div>
+
+      <div id="content-wrapper">
+
+        <form action="http://example.com/" method="get">
+
+          <h1>Contact Form</h1>
+
+          <label for="fullname">Full Name</label>
+          <input type="text" name="fullname" min="2" placeholder="Enter your full name" required>
+
+          <label for="email">Email Address</label>
+          <input type="email" name="email" placeholder="Enter your email address" required>
+
+          <div class="form-inquiries">
+            <label for="inquiry-type">Inquiry Type</label>
+            <input type="radio" name="inquiry-type" value="Help/Issue"> Help / Issue<br/>
+            <input type="radio" name="inquiry-type" value="Suggestion/Feedback"> Suggestion / Feedback<br/>
+            <input type="radio" name="inquiry-type" value="Other"> Other
+          </div>
+
+          <label for="state">State</label>
+          <select name="state" required>
+            <option value="NY">New York</option>
+            <option value="NJ">New Jersey</option>
+            <option value="FL">Florida</option>
+            <option value="TX">Texas</option>
+            <option value="VA">Virginia</option>
+          </select>
+
+          <label for="fileupload">Upload Files</label>
+          <input type="file" name"fileupload">
+
+          <label for="message">Message</label>
+          <textarea name="message" placeholder="Enter your message" ></textarea><br/>
+
+          <div class="form-buttons">
+            <input type="reset" value="Reset your form">
+            <input type="submit" value="Submit your form">
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+
+    </main>
+
+
+  <footer>
+    <div id="footer-container">
+      <div id="footer-left">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="executivebranch.html">Executive Branch</a></li>
+          <li><a href="judicialbranch.html">Judicial Branch</a></li>
+          <li><a href="legislativebranch.html">Legislative Branch</a></li>
+        </ul>
+      </div>
+      <div id="footer-right">
+        <p>The Three Branches of Government Project for Hunter College.</p>
+        <p>Copyright &copy 2017 Richard Pichardo. All Rights Reserved.<p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

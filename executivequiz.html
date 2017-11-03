@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+
+<head>
+  <!--
+    Created by Richard P.
+    Hunter HTML Project
+    Fall 2017
+  -->
+  <title>Executive Branch Quiz | The Three Branches of Government</title>
+  <link href="css/styling.css" type="text/css" rel="stylesheet">
+  <link href="css/executive.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <h1>The Three Branches of Government</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="executivebranch.html">Back to Executive Branch</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="page-title-container">
+      <div id="page-title-content">
+        <h1 id="page-title">Executive Branch</h1>
+      </div>
+    </div>
+
+    <div id="page-content">
+      <div class="content-title">
+        <h1>Quiz on the Executive Branch</h1>
+        <p>Take a quiz on the executive branch and see how much you know.</p>
+      </div>
+
+      <div id="content-wrapper">
+
+        <form action="http://example.com/" method="get">
+
+          <h1>Executive Branch - Quiz</h1>
+
+          <label for="fullname">Full Name</label>
+          <input type="text" name="fullname" min="2" placeholder="Enter your full name" required>
+
+          <label for="email">Email Address</label>
+          <input type="email" name="email" placeholder="Enter your email address" required>
+
+          <div class="form-inquiries">
+            <label for="ques-1">Who commands the United States Armed Forces?</label>
+            <input type="radio" name="ques-1" value="sec-def" required> Secretary of Defense<br/>
+            <input type="radio" name="ques-1" value="potus" required> President of the United States<br/>
+            <input type="radio" name="ques-1" value="jcos" required> Joint Chiefs of Staff
+          </div>
+
+          <label for="ques-2">In which State is White House located in?</label>
+          <select name="ques-2" required>
+            <option value="WA">Washington</option>
+            <option value="NY">New York</option>
+            <option value="VA">Virginia</option>
+            <option value="MD">Maryland</option>
+            <option value="none">Is not part of any state</option>
+          </select>
+
+          <label for="ques-3">How many Presidents has the United States had?</label>
+          <p>There have been a total of <input type="number" name="ques-3" min="0" max="99"> U.S. Presidents</p>
+
+          <label for="message">Describe the main purpose of the United States President.</label>
+          <textarea name="message" placeholder="Enter your message" required></textarea><br/>
+
+          <div class="form-buttons">
+            <input type="reset" value="Reset your answers">
+            <input type="submit" value="Submit your answers">
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div id="footer-container">
+      <div id="footer-left">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="executivebranch.html">Executive Branch</a></li>
+          <li><a href="judicialbranch.html">Judicial Branch</a></li>
+          <li><a href="legislativebranch.html">Legislative Branch</a></li>
+        </ul>
+      </div>
+      <div id="footer-right">
+        <p>The Three Branches of Government Project for Hunter College.</p>
+        <p>Copyright &copy 2017 Richard Pichardo. All Rights Reserved.<p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

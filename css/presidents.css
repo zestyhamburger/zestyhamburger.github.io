@@ -1,0 +1,15 @@
+/* For styles associated and intended for presidents list only */
+
+#page-title:before, #page-title:after {
+  max-width: 260px;
+}
+
+#page-title-container {
+  height: 300px;
+  background-color: gray;
+  background: url('../images/us-presidents.jpg');
+  background-size: cover;
+  background-position: center 40%;
+  box-shadow: inset 0 0 0 150px rgba(0,0,0,0.50);
+  overflow: hidden;
+}
