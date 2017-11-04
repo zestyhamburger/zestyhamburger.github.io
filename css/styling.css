@@ -284,6 +284,10 @@ form textarea:focus, form input[type=text]:focus, form input[type=email]:focus {
   margin-bottom: 0;
 }
 
+.margin-enhance {
+  margin-top: 20px;
+}
+
 #box-flex {
   display: flex;
   flex-direction: row;
