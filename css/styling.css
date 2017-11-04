@@ -280,6 +280,10 @@ form textarea:focus, form input[type=text]:focus, form input[type=email]:focus {
   border: 1px solid #345ea5;
 }
 
+.margin-negate {
+  margin-bottom: 0;
+}
+
 #box-flex {
   display: flex;
   flex-direction: row;
